@@ -10,10 +10,13 @@ public class DifferentTypesOfInput {
 
         System.out.println("Give a string: ");
         String string = scan.nextLine();
+
         System.out.println("Give an integer:");
         int integer = Integer.parseInt(scan.nextLine());
+
         System.out.println("Give a double: ");
         double doubleNumber = Double.parseDouble(scan.nextLine());
+        
         System.out.println("Give a boolean: ");
         boolean bool = Boolean.parseBoolean(scan.nextLine());
  

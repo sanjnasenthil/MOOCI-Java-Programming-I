@@ -10,6 +10,7 @@ public class BooleanInput {
 
         System.out.println("Write something:");
         boolean response = Boolean.parseBoolean(scanner.nextLine());
+        
         System.out.println("True or false? " + response);
     }
 }
